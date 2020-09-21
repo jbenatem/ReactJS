@@ -14,10 +14,13 @@ class Navbar extends Component{
                         <a className="nav-link" href="#">Inicio<span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Catálogo</a>
+                        <a onClick={this.props.scroll.bind(this, 'catalogo')} className="nav-link">Catálogo</a>
                     </li>
                     <li className="nav-item">
-                        <a onClick={this.props.showModal} className="nav-link">Nosotros</a>
+                        <a onClick={this.props.scroll.bind(this, 'quienessomos')} className="nav-link">¿Quiénes somos?</a>
+                    </li>
+                    <li className="nav-item">
+                        <a onClick={this.props.scroll.bind(this, 'contactenos')} className="nav-link">Contáctenos</a>
                     </li>
                     </ul>
                 </div>
