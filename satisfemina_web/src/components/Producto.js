@@ -8,6 +8,7 @@ const Producto = props => {
                 <div className = "card-body">
                     <p className = "card-text">Blusa XXXXXXXXX</p>
                     <p className = "card-text">Precio: s/35.00</p>
+                    <button type="button" class="btn btn-secondary">Añadir al carrito</button>
                 </div>
             </div>
         </div>

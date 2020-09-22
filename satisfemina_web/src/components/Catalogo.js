@@ -16,7 +16,7 @@ const Catalogo = props => {
               <Producto/>
               <Producto/>
             </div>  
-          </div>
+        </div>
     )  
 }
 
