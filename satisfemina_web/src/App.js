@@ -56,11 +56,11 @@ class App extends Component {
           <div className="row">
             <div className="col-md-6">
               <i class="fab fa-instagram fa-2x"></i>
-              <a class="lead" href="#">  satis.femina.11</a>             
+              <a class="lead" href="#" target="_blank">  satis.femina.11</a>             
             </div>  
             <div className="col-md-6">
               <i class="fab fa-facebook fa-2x"></i>
-              <a class="lead" href="https://www.facebook.com/Satis-Femina-102655381539922/">  Satis Femina</a>
+              <a class="lead" href="https://www.facebook.com/Satis-Femina-102655381539922/" target="_blank">  Satis Femina</a>
             </div>  
           </div>
         </div>
