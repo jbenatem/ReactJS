@@ -25,6 +25,9 @@ class Navbar extends Component{
                             <a onClick={this.props.scroll.bind(this, 'misproyectos')} className="nav-link">Mis proyectos</a>
                         </li>
                         <li className="nav-item">
+                            <a onClick={this.props.scroll.bind(this, 'educacion')} className="nav-link">Educación</a>
+                        </li>
+                        <li className="nav-item">
                             <a onClick={this.props.scroll.bind(this, 'contactame')} className="nav-link">Contáctame</a>
                         </li>                          
                     </ul>
